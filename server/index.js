@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename)
 app.use(express.static('dist'))
 
 app.get('/users', (req, res) => {
-  res.send('return list of users')
+  res.send('testing nodemon')
 })
 
 app.get('*', (req, res) => { 
